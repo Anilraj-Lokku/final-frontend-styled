@@ -1,0 +1,34 @@
+.hero {
+ padding-top: 50px;
+ min-height: calc(100vh - 100px);
+}
+
+body {
+ /* background-image: url(78791.jpg); */
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center center;
+ min-height: 100vh;
+ margin: 0;
+}
+
+/* Custom Button Hover Colors */
+.btn-primary:hover {
+ background-color: #0056b3; /* Darker blue */
+ border-color: #004085; /* Darker blue border */
+}
+
+.btn-success:hover {
+ background-color: #218838; /* Darker green */
+ border-color: #1e7e34; /* Darker green border */
+}
+
+.btn-warning:hover {
+ background-color: #e0a800; /* Darker yellow */
+ border-color: #d39e00; /* Darker yellow border */
+}
+
+.btn-info:hover {
+ background-color: #17a2b8; /* Darker cyan */
+ border-color: #117a8b; /* Darker cyan border */
+}

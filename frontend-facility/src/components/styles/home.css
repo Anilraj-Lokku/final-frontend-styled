@@ -1,0 +1,27 @@
+/* home.css */
+
+body {
+ /* Ensure body element has full height for background image */
+ height: 100vh;
+ margin: 0;
+}
+
+.hero {
+ background-image: url("/public/22539558.jpg");
+ /* background-image: url("/public/exampleimg.jpg"); */
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center center;
+ height: 100vh;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+.btn-dark {
+ background-color: darkmagenta;
+}
+
+/* .btn-dark:hover {
+ background-color: skyblue; 
+} */

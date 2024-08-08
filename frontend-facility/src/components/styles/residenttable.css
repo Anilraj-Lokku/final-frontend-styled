@@ -1,0 +1,101 @@
+.ResidentTable {
+ margin: 20px auto;
+ width: 90%;
+ max-width: 1200px;
+ margin-top: 200px;
+}
+
+.ResidentTable .table {
+ width: 100%;
+ border-collapse: collapse;
+ text-align: center;
+}
+
+.ResidentTable .table th,
+.ResidentTable .table td {
+ border: 1px solid #dddddd;
+ text-align: center;
+ padding: 8px;
+}
+
+.ResidentTable .table th {
+ background-color: #f2f2f2;
+}
+
+.ResidentTable .btn {
+ margin: 0 5px;
+}
+/* residenttable.css */
+
+.btn-approve {
+ background-color: deeppink;
+ color: white;
+ border: none;
+ padding: 8px;
+ border-radius: 5px;
+ transition: background-color 0.3s ease;
+}
+
+.btn-approve:hover {
+ background-color: #28a745;
+ color: white;
+}
+
+.btn-decline {
+ background-color: #dc3545;
+ color: white;
+ border: none;
+ padding: 8px;
+ border-radius: 5px;
+ transition: background-color 0.3s ease;
+}
+
+.btn-decline:hover {
+ background-color: #28a745;
+ color: white;
+}
+
+.btn-delete {
+ background-color: #007bff;
+ color: white;
+ border: none;
+ padding: 8px;
+ border-radius: 5px;
+ transition: background-color 0.3s ease;
+}
+
+.btn-delete:hover {
+ background-color: #28a745;
+ color: white;
+}
+
+@media (max-width: 768px) {
+ .ResidentTable .table {
+  font-size: 14px;
+ }
+
+ .ResidentTable .table th,
+ .ResidentTable .table td {
+  padding: 6px;
+ }
+}
+
+@media (max-width: 576px) {
+ .ResidentTable .table {
+  font-size: 12px;
+ }
+
+ .ResidentTable .table th,
+ .ResidentTable .table td {
+  padding: 4px;
+ }
+
+ .ResidentTable .table img {
+  width: 80px;
+ }
+
+ .ResidentTable .btn {
+  font-size: 12px;
+  padding: 5px 8px;
+ }
+}
